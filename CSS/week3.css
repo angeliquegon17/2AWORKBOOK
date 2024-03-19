@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(229, 38, 159);
+}
+h1 {
+  text-align: center;
+  font-family: lores-9-wide-bold-alt-oaklan, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: darkolivegreen;
+  font-size: 50px;
+  margin-top: 10vh;
+}
+.flexbox {
+  display: flex;
+  font-family: lores-9-wide-bold-alt-oaklan, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: darkolivegreen;
+  font-size: 100px;
+  text-align: center;
+  justify-content: center;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  padding: 5%;
+  margin: 5vw;
+  background-color: darkorange;
+}
+@media (max-width: 700px) {
+  .flexbox {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 35vw;
+  }
+}
+p {
+  font-family: lores-9-wide-bold-alt-oaklan, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: darkorange;
+  font-size: 15px;
+  text-align: center;
+}
+.mediaquery {
+  width: 40vw;
+  margin-left: 30vw;
+}

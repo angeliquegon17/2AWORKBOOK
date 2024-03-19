@@ -1,0 +1,79 @@
+body {
+  background-image: url(../IMG/week2bg.jpg);
+  background-size: 101vw;
+  background-repeat: no-repeat;
+}
+
+header {
+  font-family: espiritu-expanded, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 55px;
+  padding: 4vh;
+  color: #df9544;
+  height: 11vh;
+}
+
+.imagesection1 {
+  display: flex;
+  margin-top: 5vh;
+  height: 13vh;
+}
+.borderleft {
+  width: 15.5vw;
+}
+.borderright {
+  width: 79vw;
+}
+.image1 {
+  width: 7.5vw;
+  background-color: pink;
+  border-radius: 5px;
+  overflow: hidden;
+  border: #ff8400;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 7px;
+}
+.paperprototype {
+  width: 7.5vw;
+  object-fit: contain;
+}
+.imagesection2 {
+  display: flex;
+  margin-top: 28.3vh;
+  height: 14vh;
+}
+.borderleft2 {
+  width: 35.5vw;
+}
+.borderright2 {
+  width: 50vw;
+}
+.image2 {
+  padding: 2%;
+  width: 8.2vw;
+  border: #ff8400;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 7px;
+  height: 13vh;
+}
+a:link {
+  color: #df9544;
+  text-decoration: none;
+}
+a:visited {
+  color: #df9544;
+  text-decoration: none;
+}
+a:hover {
+  color: #df9544;
+  text-decoration: none;
+}
+a:active {
+  color: #df9544;
+  text-decoration: none;
+}
+

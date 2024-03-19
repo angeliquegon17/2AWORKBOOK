@@ -1,0 +1,120 @@
+header {
+  text-align: center;
+  font-family: lores-9-narrow, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+  color: #fdfd8d;
+  margin-top: 5vh;
+  position: fixed;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../IMG/arcade.jpg);
+  background-color: #18024a;
+  height: 190vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.marqueeparent {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 12vh;
+  height: 18vh;
+  white-space: nowrap;
+  will-change: transform;
+}
+
+.leftblank {
+  width: 37.5vw;
+}
+.marqueebackground {
+  align-items: center;
+  justify-content: center;
+  background-color: #e30c4f;
+  border: #d30a4d;
+  border-style: solid;
+  border-width: 22px 0px;
+  width: 31vw;
+  overflow-x: hidden;
+}
+.marqueecontent {
+  padding: 4.3%;
+  font-family: lores-9-narrow, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  color: #fdfd8d;
+  animation: marquee 13s linear infinite;
+}
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-550%);
+  }
+}
+.rightblank {
+  width: 31vw;
+}
+
+a:link {
+  color: #fdfd8d;
+  text-decoration: none;
+}
+a:visited {
+  color: #fdfd8d;
+  text-decoration: none;
+}
+a:hover {
+  color: #fdfd8d;
+  text-decoration: none;
+}
+a:active {
+  color: #fdfd8d;
+  text-decoration: none;
+}
+h3 {
+  text-align: center;
+  font-family: unibody-8-new, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+}
+.info1 {
+  padding-top: 35vh;
+  display: flex;
+  text-align: center;
+}
+.gestures {
+  width: 40vw;
+  background-color: #fe58b1;
+  margin: 5%;
+  padding: 5%;
+  object-fit: contain;
+  align-items: center;
+}
+.other {
+  width: 40vw;
+  background-color: #fe58b1;
+  margin: 5%;
+  padding: 5%;
+  object-fit: contain;
+  align-items: center;
+}
+.img1 {
+  width: 25vw;
+  justify-content: center;
+  display: block;
+}
+p {
+  font-family: unibody-8-new, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 20px;
+}

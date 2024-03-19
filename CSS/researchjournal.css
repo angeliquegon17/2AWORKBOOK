@@ -1,0 +1,14 @@
+body {
+  background-image: url(../IMG/BACKROOM.jpg);
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+div {
+  width: 20vw;
+  height: 20vh;
+  margin-top: 45vh;
+  margin-right: 40vw;
+  align-items: center;
+
+  justify-content: center;
+}

@@ -1,0 +1,129 @@
+header {
+  text-align: center;
+  font-family: lores-9-plus-wide-bold-alt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  letter-spacing: 10px;
+  color: #e86a10;
+  margin-top: 5vw;
+}
+h2 {
+  font-family: lores-9-narrow, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../IMG/backgroundwground.jpg);
+  background-color: #0a72e3;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 140vw;
+}
+.wholebackground {
+  cursor: url(https://unimelbcloud-my.sharepoint.com/:i:/r/personal/agonopoulos_student_unimelb_edu_au/Documents/2024_SM1/GDES30008/WORKBOOK/IMG/normcursor.png?csf=1&web=1&e=ERz4LN),
+    auto;
+}
+
+.marqueeparent {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 20vh;
+  white-space: nowrap;
+  will-change: transform;
+  width: 100vw;
+}
+
+.leftblank {
+  width: 10vw;
+}
+.wholebackground {
+  align-items: center;
+  justify-content: center;
+  background-image: url(../IMG/marqueebghp.png);
+  background-size: contain;
+  flex-grow: unset;
+  width: 80vw;
+  background-repeat: no-repeat;
+}
+.marqueebackground {
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-left: 2.2vw;
+  margin-right: 2vw;
+  margin-top: 3.2vw;
+}
+.marqueecontent {
+  align-items: center;
+  justify-content: center;
+  font-family: lores-9-narrow, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 80px;
+  color: #0a72e3;
+  animation: marquee 20s linear infinite;
+}
+@keyframes marquee {
+  from {
+    transform: translateX(150%);
+  }
+  to {
+    transform: translateX(-650%);
+  }
+}
+.rightblank {
+  width: 10vw;
+}
+
+.weeks {
+  padding-top: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  text-align: center;
+  margin: auto;
+  width: 100vw;
+}
+
+.research-journal {
+  padding: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.notepad-icon {
+  width: 60%;
+}
+.file-icon {
+  width: 60%;
+}
+.file1-icon {
+  width: 60%;
+}
+.computer-icon {
+  width: 30%;
+}
+.corruptfiles {
+  display: flex;
+}
+footer {
+  background-color: orangered;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: lores-9-plus-wide-bold-alt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
